@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.navbar {
+  max-width: 130rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  align-items: center;
+  margin: 0.2rem 25rem 0rem 25rem;
+}
+.site-text {
+  height: 5rem;
+  width: 16rem;
+  /* margin: 0rem 0rem 0rem 15rem; */
+}
+
+.search-bar {
+  padding: 1rem;
+  width: 28rem;
+  border-radius: 0.5rem;
+  border-color: gray;
+  border-style: none;
+  background-color: #dcdcdc;
+}
+
+.nav-anchor-holder {
+  list-style: none;
+  font-size: 1.6rem;
+  color: #4da6ff;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  font-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+#loginBtn {
+  padding: 0.6rem 1.2rem;
+  background-color: #4da6ff;
+  border-radius: 0.8rem;
+}
+
+#signupBtn {
+  font-size: 1.6rem;
+}
+
+.navend {
+  border-top: 0.8px solid #e0e0e0;
+  margin-top: 0.5rem;
+}
+/*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*/

@@ -14,12 +14,11 @@ html {
   justify-content: space-between;
   margin-top: 1rem;
   align-items: center;
-  margin: 0.2rem 25rem 0rem 25rem;
+  margin: 0.6rem 25rem 0rem 25rem;
 }
 .site-text {
-  height: 5rem;
-  width: 16rem;
-  /* margin: 0rem 0rem 0rem 15rem; */
+  height: 4.2rem;
+  width: 12rem;
 }
 
 .search-bar {
@@ -53,10 +52,92 @@ html {
 
 #signupBtn {
   font-size: 1.6rem;
+  color: #4da6ff;
 }
 
 .navend {
   border-top: 0.8px solid #e0e0e0;
   margin-top: 0.5rem;
 }
-/*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*/
+
+.info {
+  background-color: white;
+  padding: 3.8rem 0 4.8rem 0;
+}
+
+.profile-info {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  padding: 0 24rem;
+}
+
+.profile-picture {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  grid-template-columns: 1/2;
+}
+
+.profile-text {
+  font-size: 2.4rem;
+  font-weight: 400;
+  padding-right: 10rem;
+}
+
+.name-text {
+  display: flex;
+  align-items: center;
+}
+
+.followBtn {
+  margin-left: 3.2rem;
+  padding: 0.7rem 1.4rem;
+  border-radius: 0.4rem;
+  border-style: none;
+  font-weight: 550;
+}
+
+.msgBtn {
+  margin-left: 1rem;
+  padding: 0.7rem 1.4rem;
+  border-radius: 0.4rem;
+  border-style: none;
+  font-weight: 550;
+}
+
+.profile-numbers {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.6rem;
+  margin-right: 10rem;
+}
+
+.count-type {
+  font-size: 1.8rem;
+}
+
+.number-count {
+  /* font-weight: 600; */
+  font-size: medium;
+}
+
+.other-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 1.6rem;
+  margin-top: 1.6rem;
+}
+
+.name {
+  font-weight: 550;
+}
+
+.site-link {
+  color: darkblue;
+  text-decoration: none;
+  font-weight: bold;
+}
